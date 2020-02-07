@@ -1,0 +1,31 @@
+pkgbase = nodejs-add-gitignore
+	pkgdesc = Interactive CLI tool to generate .gitignore files.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/TejasQ/add-gitignore
+	changelog = CHANGELOG.md
+	arch = any
+	license = MIT
+	makedepends = jq
+	makedepends = npm
+	depends = bash
+	depends = coffeescript
+	depends = nodejs
+	noextract = add-gitignore-1.1.1.tgz
+	source = https://registry.npmjs.org/add-gitignore/-/add-gitignore-1.1.1.tgz
+	source = CC-by-SA-v4.md
+	source = CHANGELOG.md
+	source = ISSUES.md
+	source = LICENSE.md
+	source = MIT.md
+	source = README.md
+	sha512sums = 5d3e94dbed4e1a6eda647dce735e28915c57e113e3a187f54fb2e49bd1a1fffdb2738f394b698d27a48380bcffaf1fcf88c26a36b3bb113325eb4cec0e9d22b0
+	sha512sums = 97bf4be8ac17b712e1e649c1ffef53c9b4693318bdda76d1ecd6f66100ec7ea63b8487af1b9bb421ffb2bbfa7b2cc75ebb432c3a0cde6caccef4dd24599ddf3a
+	sha512sums = 3fe60d4dd9b368f60b3803699d56d7f0f37b1753b17dd293eb3e45812edc05f6a29b13e6f026dfb7f9cfe5fc6e996beccb446b4a7e307c0b1628509cb5f96c63
+	sha512sums = 7ba956cd2fe97fca9e5622dccc57642de5db3964ce47f939f163c5123fe7445e3edf0cab34517232e1813050fb0499f623bcdc84f6aa6a4606fc80678fd87780
+	sha512sums = a15949a660a8dd769a09509930cbe931dbd0e4832956744ed78d7df796fc6eaf7d1add2a59059aed5a01283e9711e27ac87ae93fb9799bcd3869952209232771
+	sha512sums = abbd0edda28a8b524411d936dbf3136772eb5d33a30bacd26f208ce150d9e2a0ac49511faccc27d1df6c5eead78d15f32bc6cfb4cec51455fbd25f11b833ca3b
+	sha512sums = 9d471b340b7d5adb44f118bc4967ee54e969307ba8adf901c527c759f9c20bfe042fe5be9ac86f8e30e9f531e05dc0bb8c1a5d68bd72b47bd508640b4bc37d30
+
+pkgname = nodejs-add-gitignore
+
