@@ -13,7 +13,7 @@ arch=("any")
 url="https://github.com/TejasQ/add-gitignore"
 license=("MIT")
 # groups=()
-depends=("bash" "coffeescript" "nodejs")
+depends=("nodejs")
 # optdepends=()
 makedepends=("jq" "npm")
 # checkdepends=()
@@ -36,12 +36,12 @@ source=(
 noextract=("$_relname-$pkgver.tgz")
 # validpgpkeys=()
 sha512sums=('5d3e94dbed4e1a6eda647dce735e28915c57e113e3a187f54fb2e49bd1a1fffdb2738f394b698d27a48380bcffaf1fcf88c26a36b3bb113325eb4cec0e9d22b0'
-            '97bf4be8ac17b712e1e649c1ffef53c9b4693318bdda76d1ecd6f66100ec7ea63b8487af1b9bb421ffb2bbfa7b2cc75ebb432c3a0cde6caccef4dd24599ddf3a'
-            '3fe60d4dd9b368f60b3803699d56d7f0f37b1753b17dd293eb3e45812edc05f6a29b13e6f026dfb7f9cfe5fc6e996beccb446b4a7e307c0b1628509cb5f96c63'
-            '7ba956cd2fe97fca9e5622dccc57642de5db3964ce47f939f163c5123fe7445e3edf0cab34517232e1813050fb0499f623bcdc84f6aa6a4606fc80678fd87780'
-            'a15949a660a8dd769a09509930cbe931dbd0e4832956744ed78d7df796fc6eaf7d1add2a59059aed5a01283e9711e27ac87ae93fb9799bcd3869952209232771'
-            'abbd0edda28a8b524411d936dbf3136772eb5d33a30bacd26f208ce150d9e2a0ac49511faccc27d1df6c5eead78d15f32bc6cfb4cec51455fbd25f11b833ca3b'
-            '9d471b340b7d5adb44f118bc4967ee54e969307ba8adf901c527c759f9c20bfe042fe5be9ac86f8e30e9f531e05dc0bb8c1a5d68bd72b47bd508640b4bc37d30')
+            '3eb6d42c953879cc6581ad959e501525f4c36220e34769c66baaccb0f173e6e537ae6a26f9e4cd9321731c02ee9db16cf6ff4d41eb37df44c567045c75ba3b75'
+            '63d8070bd5ac4576112f8c332c009e52d13f51b2d0a034fadd9e28260471d7e04cce8d79fc875cac0d4c0e0368c5e33c1f2d0967afac490ccbabf06eed8a3955'
+            'bde1bfa08641b6bebb9f67dc530770368ef46287ce1af9d4421a6e8fc19a0f8c910d086ba3799168789e71868e1f6d6ede0667f4ce68f9a766a6c2496b76a51a'
+            '43234ee22a9d5311ca778d6b87c6dc33b20104829c54651b68625c41ace2f0928e3c7e702a639fac077b20978e6b6fa7611f903a04ef27b95c8b5b6616cb57e4'
+            'b2b865c7f295d9c9a0e0bcfc6a9c841582a5df4732b663d81eae5adb87d3cd0a8917dc338e9e5c6b58c349e54afe72522c698e7172fcd34bca0c7b59ce1a9d41'
+            '973b45e8b98c6fbbc5ff1f68083a0914d249d7347690c27b435c37204ef2b3436d9f9364220fb58daf7d23ce7b7b5cb315101caf3c0d79cfd1351de54d40a6e3')
 
 # prepare () {}
 
@@ -78,10 +78,7 @@ package() {
   mv "$tmppackage" "$pkgjson"
   chmod 644 "$pkgjson"
 
-  # echo $srcdir
-
   # Install license
-  # install -Dm 644 "$srcdir/package/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
   install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
   ln -s ../../../lib/node_modules/eslint/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
