@@ -80,6 +80,7 @@
 		"!248mBuilding",
 		"gitignore",
 		"noextract",
-		"!CLI"
+		"!CLI",
+		"integ"
 	]
 }
