@@ -18,23 +18,27 @@ All notable changes to the project are documented in this file using rules based
 | ------- | ---------- | ----------------------------------------------------- |
 |         |            |                                                       |
 
-## [1.0.0] - 2020-02-08
+## :pencil: [1.0.0] - 2020-02-08
 
 ### This release addresses
 
-- Tidying documentation by removing unnecessary link to Arch Linux in document
+- :mega: Tidying documentation by removing unnecessary link to Arch Linux in document
   headers.
-- Correction of links in Documentation, including:
-  - Link to contributors in copyright statement
-- Correction of first release date to 2020-02-07
+- :link: Correction of links in Documentation, including:
+  - Links to contributors in copyright statement
+  - Links to issue pages
+- :date: Correction of first release date to 2020-02-07
 
 ### This release includes
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-| a0a52bd | 2020-02-06 | :tada: INIT: Initial upload                           |
+|  latest | 2020-02-06 | :id: SECURE(integ): Update to reflect files changes   |
+|  latest | 2020-02-06 | :memo: DOC(log): Update ready for 1.1.0 release       |
+| ba4ddaf | 2020-02-06 | :gift: PACK: Fix unneeded packages                    |
+| ba4ddaf | 2020-02-06 | :memo: DOC(log): Tidy and correct documentation       |
 
-## [1.0.0] - 2020-02-07
+## :tada: [1.0.0] - 2020-02-07
 
 ### This release addresses
 
