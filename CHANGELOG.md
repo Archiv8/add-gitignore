@@ -34,8 +34,9 @@ All notable changes to the project are documented in this file using rules based
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
 |  latest | 2020-02-06 | :id: SECURE(integ): Update to reflect files changes   |
-|  latest | 2020-02-06 | :memo: DOC(log): Update ready for 1.1.0 release       |
-| ba4ddaf | 2020-02-06 | :gift: PACK: Fix unneeded packages                    |
+|  latest | 2020-02-06 | :wrench: DOC(fix): Correct commit numbering           |
+| b82f49e | 2020-02-06 | :memo: DOC(log): Update ready for 1.1.0 release       |
+| 263d4e0 | 2020-02-06 | :gift: PACK: Fix unneeded packages                    |
 | ba4ddaf | 2020-02-06 | :memo: DOC(log): Tidy and correct documentation       |
 
 ## :tada: [1.0.0] - 2020-02-07
