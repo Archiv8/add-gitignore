@@ -4,15 +4,15 @@ _Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs
 
 ---
 
-**_This repository contains unofficial packaging for an installation of [ESLint](https://eslint.org) on [Arch Linux](https://www.archlinux.org/).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the ESLint project._**
+**_This repository contains unofficial packaging for an installation of [Add .gitignore](https://github.com/TejasQ/add-gitignore).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the Add .gitignore project._**
 
 ---
 
-## About ESLint
+## About Add .gitignore
 
-[ESLint](https://eslint.org) is an AST based pattern checker for JavaScript.
+[Add .gitignore](https://github.com/TejasQ/add-gitignore) An interactive CLI tool that adds a .gitignore to your projects.
 
-[ESLint](https://eslint.org) provides detailed information via it's website.  The code is hosted in the project's GitHub [repo](https://github.com/eslint/eslint).  Any issues with ESLint should be lodged on the [project's issue page](https://github.com/eslint/eslint/issues).
+[Add .gitignore](https://github.com/TejasQ/add-gitignore) provides detailed information via it's GitHub [repo](https://github.com/TejasQ/add-gitignore).  Any issues with Add .gitignore should be lodged on the [project's issue page](https://github.com/TejasQ/add-gitignore/issues).
 
 ## About the package
 
@@ -26,8 +26,8 @@ Only an issue based around the packaging of Lerna will receive a response.  This
 
 Should you discover an issue please:
   1. Take steps to ensure it is an issue with the packaging and not the upstream software.
-  1. Take a look at the [ISSUES.md](ISSUES.md) file which catalogues issues and provides information and links to the specific issues on the repository's [issue pages](https://github.com/Archiv8/nodejs-eslint/issues).
-  1. Search repository's [issue pages](https://github.com/Archiv8/nodejs-eslint/issues) for similar issues both active and inactive
+  1. Take a look at the [ISSUES.md](ISSUES.md) file which catalogues issues and provides information and links to the specific issues on the repository's [issue pages](https://github.com/Archiv8/nodejs-add-gitignore/issues).
+  1. Search repository's [issue pages](https://github.com/Archiv8/nodejs-add-git-ignore/issues) for similar issues both active and inactive
   1. Create a [new issue](https://github.com/Archiv8/nodejs-eslint/issues/new).
   1. Use the templates provided, when available, as they will speed up the process of triaging and producing a fix.
 
@@ -41,7 +41,7 @@ Should you discover an issue please:
 
   The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-(c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-eslint/people)
+(c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-add-gitignore/people)
 
   ---
 

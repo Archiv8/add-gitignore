@@ -4,7 +4,7 @@ _Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs
 
 ---
 
-**_This repository contains unofficial packaging for an installation of [ESLint](https://eslint.org) on [Arch Linux](https://www.archlinux.org/).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the ESLint project._**
+**_This repository contains unofficial packaging for an installation of [Add .gitignore](https://github.com/TejasQ/add-gitignore).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the ESLint project._**
 
 ---
 
@@ -41,7 +41,7 @@ Any original software produced for [Archiv8](https://archiv8.github.io/) and / o
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-(c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-eslint/people)
+(c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-add-gitignore/people)
 
 ---
 

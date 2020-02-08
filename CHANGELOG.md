@@ -4,7 +4,7 @@ _Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs
 
 ---
 
-**_This repository contains unofficial packaging for an installation of [ESLint](https://eslint.org) on [Arch Linux](https://www.archlinux.org/).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the ESLint project._**
+**_This repository contains unofficial packaging for an installation of [Add .gitignore](https://github.com/TejasQ/add-gitignore).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the ESLint project._**
 
 ---
 
@@ -18,7 +18,23 @@ All notable changes to the project are documented in this file using rules based
 | ------- | ---------- | ----------------------------------------------------- |
 |         |            |                                                       |
 
-## [1.0.0] - 2020-02-06
+## [1.0.0] - 2020-02-08
+
+### This release addresses
+
+- Tidying documentation by removing unnecessary link to Arch Linux in document
+  headers.
+- Correction of links in Documentation, including:
+  - Link to contributors in copyright statement
+- Correction of first release date to 2020-02-07
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+| a0a52bd | 2020-02-06 | :tada: INIT: Initial upload                           |
+
+## [1.0.0] - 2020-02-07
 
 ### This release addresses
 
@@ -28,7 +44,7 @@ All notable changes to the project are documented in this file using rules based
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-|  latest | 2020-02-06 | :tada: INIT: Initial upload                           |
+| a0a52bd | 2020-02-06 | :tada: INIT: Initial upload                           |
 
 ---
 
