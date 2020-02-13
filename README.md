@@ -22,7 +22,7 @@ As part of the testing process the PKGBUILD and the compiled package have been s
 
 ## Found an issue?
 
-Only an issue based around the packaging of Lerna will receive a response.  This includes bugs, feature requests, todos etc, within the PKGBUILD or other files hosted in this repository.
+Only an issue based around the packaging of add .gitignore will receive a response.  This includes bugs, feature requests, todos etc, within the PKGBUILD or other files hosted in this repository.
 
 Should you discover an issue please:
   1. Take steps to ensure it is an issue with the packaging and not the upstream software.
