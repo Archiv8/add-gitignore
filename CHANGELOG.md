@@ -18,7 +18,21 @@ All notable changes to the project are documented in this file using rules based
 | ------- | ---------- | ----------------------------------------------------- |
 |         |            |                                                       |
 
-## :pencil: [1.0.0] - 2020-02-08
+## :wrench: [1.1.1] - 2020-02-13
+
+### This release addresses
+
+- :wrench: Correct copy and pase error in README.md
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+|      +2 | 2020-02-13 | :id: SEC(integ): Regenerate sums for changed files    |
+|      +1 | 2020-02-13 | :date: DOC(log): Add new update                       |
+| ffb705d | 2020-02-13 | :wrench: DOC(fix): Errors in documentation            |
+
+## :pencil: [1.1.0] - 2020-02-08
 
 ### This release addresses
 
@@ -33,8 +47,8 @@ All notable changes to the project are documented in this file using rules based
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-|  latest | 2020-02-06 | :id: SECURE(integ): Update to reflect files changes   |
-|  latest | 2020-02-06 | :wrench: DOC(fix): Correct commit numbering           |
+| 154019f | 2020-02-06 | :id: SECURE: Regenerate sums for changed files        |
+| e27821b | 2020-02-06 | :wrench: DOC(fix): Correct commit numbering           |
 | b82f49e | 2020-02-06 | :memo: DOC(log): Update ready for 1.1.0 release       |
 | 263d4e0 | 2020-02-06 | :gift: PACK: Fix unneeded packages                    |
 | ba4ddaf | 2020-02-06 | :memo: DOC(log): Tidy and correct documentation       |
