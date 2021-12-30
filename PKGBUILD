@@ -1,10 +1,16 @@
+#!/bin/bash
+
+# Disable various shellcheck rules that produce false positives in this file.
+# Repository rules should be added to the .shellcheckrc file located in the 
+# repository root directory, see https://github.com/koalaman/shellcheck/wiki 
+# and https://archiv8.github.io for further information.
+
+
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
 # Contributor: Ross Clark <archiv8@artisteducator.com>
 
-_relname="add-gitignore"
-
 # pkgbase=
-pkgname="nodejs-${_relname}"
+pkgname="add-gitignore"
 pkgver=1.1.1
 pkgrel=1
 # epoch=
@@ -25,7 +31,7 @@ makedepends=("jq" "npm")
 # install=
 changelog="CHANGELOG.md"
 source=(
-"https://registry.npmjs.org/$_relname/-/$_relname-$pkgver.tgz"
+"https://registry.npmjs.org/$pkgname/-/$pkgname-$pkgver.tgz"
 "CC-by-SA-v4.md"
 "CHANGELOG.md"
 "ISSUES.md"
@@ -33,7 +39,7 @@ source=(
 "MIT.md"
 "README.md"
 )
-noextract=("$_relname-$pkgver.tgz")
+noextract=("$pkgname-$pkgver.tgz")
 # validpgpkeys=()
 sha512sums=('5d3e94dbed4e1a6eda647dce735e28915c57e113e3a187f54fb2e49bd1a1fffdb2738f394b698d27a48380bcffaf1fcf88c26a36b3bb113325eb4cec0e9d22b0'
             '3eb6d42c953879cc6581ad959e501525f4c36220e34769c66baaccb0f173e6e537ae6a26f9e4cd9321731c02ee9db16cf6ff4d41eb37df44c567045c75ba3b75'
@@ -53,7 +59,7 @@ package() {
   # Ensure cache is set when install is run in order to avoid littering user's home directory
   printf "\e[1;32m==>\e[0m \e[38;5;248mBuilding nodejs package... \e[0m\n"
   printf "    This may take some time depending on the size of the package and number of dependencies to download... \e[0m\n"
-  npm install --cache "$srcdir/npm-cache" -g --user root --prefix "$pkgdir"/usr "$srcdir"/$_relname-$pkgver.tgz
+  npm install --cache "$srcdir/npm-cache" -g --user root --prefix "$pkgdir"/usr "$srcdir"/$pkgname-$pkgver.tgz
 
   # Fix incorrect user / group as highlighted by namcap
   printf "\e[1;32m==>\e[0m \e[38;5;248mCorrecting possible ownership issues\e[0m\n"
@@ -73,7 +79,7 @@ package() {
   # Remove references to $srcdir
   printf "\e[1;32m==>\e[0m \e[38;5;248mRemoving references to \$srcdir \e[0m\n"
   local tmppackage="$(mktemp)"
-  local pkgjson="$pkgdir/usr/lib/node_modules/$_relname/package.json"
+  local pkgjson="$pkgdir/usr/lib/node_modules/$pkgname/package.json"
   jq '.|=with_entries(select(.key|test("_.+")|not))' "$pkgjson" > "$tmppackage"
   mv "$tmppackage" "$pkgjson"
   chmod 644 "$pkgjson"
