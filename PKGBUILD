@@ -6,6 +6,7 @@
 # and https://archiv8.github.io for further information.
 # ToDo: Add files: user documentation
 # Todo: Add files: tooling
+# Todo: Fix namcap warnings and errors
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
 # Contributor: Ross Clark <archiv8@artisteducator.com>
