@@ -1,0 +1,15 @@
+pkgbase = add-gitignore
+	pkgdesc = Interactive CLI tool to generate .gitignore files.
+	pkgver = 1.1.1
+	pkgrel = 2
+	url = https://github.com/TejasQ/add-gitignore
+	arch = any
+	license = MIT
+	makedepends = jq
+	makedepends = npm
+	depends = nodejs
+	noextract = add-gitignore-1.1.1.tgz
+	source = https://registry.npmjs.org/add-gitignore/-/add-gitignore-1.1.1.tgz
+	sha512sums = 5d3e94dbed4e1a6eda647dce735e28915c57e113e3a187f54fb2e49bd1a1fffdb2738f394b698d27a48380bcffaf1fcf88c26a36b3bb113325eb4cec0e9d22b0
+
+pkgname = add-gitignore
