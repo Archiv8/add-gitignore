@@ -21,9 +21,15 @@ arch=("any")
 url="https://github.com/TejasQ/add-gitignore"
 license=("MIT")
 # groups=()
-depends=("nodejs")
+depends=(
+  # Official Arch Linux repositories
+  "nodejs"
+  )
 # optdepends=()
-makedepends=("jq" "npm")
+makedepends=(
+  # Official Arch Linux repositories
+  "jq"
+  "npm")
 # checkdepends=()
 # provides=()
 # conflicts=()
