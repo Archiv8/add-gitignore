@@ -13,8 +13,6 @@
 # Contributor: Ross Clark <archiv8@artisteducator.com>
 
 
-
-
 # pkgbase=
 pkgname="add-gitignore"
 pkgver=1.1.1
