@@ -5,9 +5,9 @@
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
 # shellcheck disable=SC2034,SC2154
-# ToDo: Add files: User documentation
-# ToDo: Add files: Tooling
-# FixMe: Namcap warnings and errors
+# [ToDo]: Add files: User documentation
+# [ToDo]: Add files: Tooling
+# [FixMe]: Namcap warnings and errors
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
 # Contributor: Ross Clark <archiv8@artisteducator.com>
@@ -16,7 +16,7 @@
 # pkgbase=
 pkgname="add-gitignore"
 pkgver=1.1.1
-pkgrel=2
+pkgrel=3
 # epoch=
 pkgdesc="Interactive CLI tool to generate .gitignore files."
 arch=("any")
@@ -82,6 +82,7 @@ package() {
   printf "\e[1;32m==>\e[0m \e[38;5;248mRemoving references to \$pkgdir\e[0m\n"
   find "$pkgdir" -type f -name package.json -print0 | xargs -0 sed -i "/_where/d"
 
+
   # Remove references to $srcdir
   printf "\e[1;32m==>\e[0m \e[38;5;248mRemoving references to \$srcdir \e[0m\n"
   local tmppackage="$(mktemp)"
@@ -89,10 +90,10 @@ package() {
   jq '.|=with_entries(select(.key|test("_.+")|not))' "$pkgjson" > "$tmppackage"
   mv "$tmppackage" "$pkgjson"
   chmod 644 "$pkgjson"
-
+rm -rf "$pkgdir/usr/lib/node_modules/root"
   # Install license
-  install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
-  ln -s ../../../lib/node_modules/eslint/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  # install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
+  # ln -s ../../../lib/node_modules/eslint/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
   # Create Archiv8 documentation folder
   # install -dvm 755 "$pkgdir/usr/share/doc/$pkgname/packaging/"
