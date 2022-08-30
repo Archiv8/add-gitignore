@@ -1,7 +1,7 @@
 pkgbase = add-gitignore
 	pkgdesc = Interactive CLI tool to generate .gitignore files.
 	pkgver = 1.1.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/TejasQ/add-gitignore
 	arch = any
 	license = MIT
